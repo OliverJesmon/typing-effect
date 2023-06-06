@@ -5,10 +5,10 @@
  
 int main(int argc, char **argv)
 {
-        int i=0;
+        
         char alpha[]="Lorem Ipsum is just a shit";
- 
-        while(i<26)
+        int i=0,len=strlen(alpha);
+        while(i<len)
         {
  
     printf("%c",alpha[i]);
